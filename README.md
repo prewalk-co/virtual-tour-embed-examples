@@ -2,7 +2,7 @@
 
 Copy-paste patterns for embedding a **360° virtual tour** on any website: responsive sizing, lazy loading, click-to-load, fullscreen and VR permissions, Content Security Policy, and notes for WordPress, Webflow, Framer, Squarespace and Wix.
 
-The examples use a plain `<iframe>`, so they work with any tour viewer that gives you an embed URL. They were written for [Prewalk](https://prewalk.co) tours, and the Prewalk-specific notes are marked.
+Written and maintained by **[Prewalk](https://prewalk.co)**, 360° virtual tour software for real estate and architecture. The patterns use a plain `<iframe>`, so they work with any viewer, and they are tested with [Prewalk](https://prewalk.co) tours. Don't have a tour yet? [Create one free at prewalk.co](https://prewalk.co): upload 360° photos or renders and get an embed code in minutes.
 
 ## Contents
 
@@ -16,6 +16,7 @@ The examples use a plain `<iframe>`, so they work with any tour viewer that give
 ## The minimum that works
 
 ```html
+<!-- YOUR_TOUR_EMBED_URL: on prewalk.co open the tour → Share → Embed on your website -->
 <div class="tour">
   <iframe
     src="YOUR_TOUR_EMBED_URL"
