@@ -2,7 +2,7 @@ import { useState } from 'react';
 
 /**
  * Tour360 · by Prewalk (https://prewalk.co), 360° virtual tour software for real estate and architecture.
- * https://github.com/prewalk-co/virtual-tour-embed-examples
+ * https://github.com/prewalkco/virtual-tour-embed-examples
  *
  * Responsive 360° tour embed with optional click-to-load poster.
  *
